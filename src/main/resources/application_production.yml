@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    # get url from heroku for production
+    url: jdbc:postgresql://localhost:5432/moneytransfer
+    username: moneytransfer # get username on the heroku
+    password: moneytransfer21 # get password from heroku
+    # In Spring boot 2, database initialization only works for embedded databases (H2, HSQLDB).
+    # If you want to use it for other databases, you need to change the
+    initialization-mode: always
+  jpa.database-platform: org.hibernate.dialect.PostgreSQLDialect
+  jpa.show-sql: true
+  jpa.hibernate.ddl-auto: update
