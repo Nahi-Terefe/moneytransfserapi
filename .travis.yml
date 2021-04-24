@@ -14,5 +14,5 @@ deploy:
   api_key: $our_app_key
   app: money-transfer-app-buna
   on:
-    repo: Nahi-Terefe/moneytransfserapi.git
+    repo: moneytransfserapi.git
     branch: main
