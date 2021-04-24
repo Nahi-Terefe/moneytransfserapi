@@ -12,7 +12,7 @@ cache:
 deploy:
   provider: heroku
   api_key: $our_app_key
-  app: moneytransferappactapi
+  app: money-transfer-app-buna
   on:
     repo: Nahi-Terefe/moneytransfserapi.git
     branch: main
